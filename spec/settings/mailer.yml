@@ -1,0 +1,19 @@
+default:
+  name: classic
+  settings:
+    address: smtp.domain.com
+    port: 25
+    recipients:
+      admin: 'admin@example.com'
+      user: 'user@example.com'
+
+development:
+  settings:
+    address: dev.domain.com
+
+test:
+  name: emulated
+  settings:
+    address: test.domain.com
+    recipients:
+      user: 'test-user@example.com'

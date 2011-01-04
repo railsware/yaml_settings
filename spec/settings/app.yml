@@ -1,0 +1,3 @@
+default:
+  secret_key: qwerty
+  :environment: staging  
